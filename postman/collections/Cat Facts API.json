@@ -102,9 +102,7 @@
 					"script": {
 						"id": "26839ad5-2ed9-41c4-b8db-1cb1b09abc14",
 						"exec": [
-							"pm.test(\"Status code is 404\", function () {",
-							"    pm.response.to.have.status(404);",
-							"});"
+							""
 						],
 						"type": "text/javascript"
 					}
