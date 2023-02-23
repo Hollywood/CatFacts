@@ -4,6 +4,9 @@
         "title": "Cat Facts API",
         "version": "1.0"
     },
+    "servers": [{
+        "url": "https://e2b30750-26a7-4fb7-86f6-0f95538f21a5.mock.pstmn.io"
+    }],
     "paths": {
         "/breeds": {
             "get": {

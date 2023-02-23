@@ -11,7 +11,6 @@ files[] = {"id":"23374062-ebc96ace-58d9-4fab-ab6e-7a7384b23f90","path":"Cat Fact
 
 [relations.apiDefinition]
 rootDirectory = OpenAPI_Specs
-files[] = {"path":"catfacts Copy.json","metaData":{}}
 files[] = {"path":"catfacts.json","metaData":{}}
 
 [relations.apiDefinition.metaData]
