@@ -286,11 +286,33 @@
 			]
 		}
 	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "1285ceed-c52e-4b33-b70a-86c36aa48f2b",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "dacb45f2-3202-45f3-a61c-f8615abb9786",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
 	"variable": [
 		{
-			"id": "f4d90236-f2eb-4b5d-925b-5b07c53a5c86",
+			"id": "15331411-9530-4c69-ad2d-f5a33a26d2b1",
 			"key": "baseUrl",
-			"value": "/",
+			"value": "https://e2b30750-26a7-4fb7-86f6-0f95538f21a5.mock.pstmn.io",
 			"type": "string"
 		}
 	]
