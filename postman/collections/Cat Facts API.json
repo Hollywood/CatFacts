@@ -8,6 +8,18 @@
 	"item": [
 		{
 			"name": "Get a list of breeds",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "27bf5ae2-a2bb-447a-9e24-d4a5aee1d692",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"id": "3a83cfdb-8089-42ba-b3bb-686772518cdb",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -84,6 +96,20 @@
 		},
 		{
 			"name": "Get Random Fact",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "26839ad5-2ed9-41c4-b8db-1cb1b09abc14",
+						"exec": [
+							"pm.test(\"Status code is 404\", function () {",
+							"    pm.response.to.have.status(404);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"id": "783f2e16-ff24-47b2-9d6a-a75941f8a66e",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -290,7 +316,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "1285ceed-c52e-4b33-b70a-86c36aa48f2b",
+				"id": "7991faa7-4d5a-496e-9be6-9fad45a6be7e",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -300,17 +326,19 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "dacb45f2-3202-45f3-a61c-f8615abb9786",
+				"id": "91b735a3-37b8-474f-a4b8-5e1edbb8cbf8",
 				"type": "text/javascript",
 				"exec": [
-					""
+					"pm.test(\"Status code is 200\", function () {",
+					"    pm.response.to.have.status(200);",
+					"});"
 				]
 			}
 		}
 	],
 	"variable": [
 		{
-			"id": "15331411-9530-4c69-ad2d-f5a33a26d2b1",
+			"id": "a8c8455e-c3cc-4d98-9bfb-f2aea273c736",
 			"key": "baseUrl",
 			"value": "https://e2b30750-26a7-4fb7-86f6-0f95538f21a5.mock.pstmn.io",
 			"type": "string"
