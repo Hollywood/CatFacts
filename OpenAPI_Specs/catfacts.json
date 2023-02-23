@@ -30,7 +30,7 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "successful operation",
+                        "description": "success",
                         "content": {
                             "application/json": {
                                 "schema": {
